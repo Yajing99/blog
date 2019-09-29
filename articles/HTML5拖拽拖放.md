@@ -14,16 +14,16 @@
 
 ### 了解拖放事件
 **在被拖动的元素上触发**
-(1) dragstart
-(2) drag
-(3) dragend
+1. dragstart
+2. drag
+3. dragend
 **在放置目标上触发**
-(1) dragenter
-(2) dragover
-(3) dragleave或drop
+1. dragenter
+2. dragover
+3. dragleave或drop
 
 ### 写代码
-**注：需重写dragenter和dragover事件默认行为才能把任何元素变成有效的放置目标（亲测只取消dragover事件默认行为也是可以的🤔🤔）**
+注：需重写dragenter和dragover事件默认行为才能把任何元素变成有效的放置目标（亲测只取消dragover事件默认行为也是可以的🤔🤔）
 ```html
 <div draggable = "true"  id = "one">...</div>
 <div draggable = "true"  id = "two">...</div>

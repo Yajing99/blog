@@ -13,11 +13,11 @@
 ```
 
 ### 了解拖放事件
-**在被拖动的元素上触发**
+在被拖动的元素上触发
 1. dragstart
 2. drag
 3. dragend
-**在放置目标上触发**
+在放置目标上触发
 1. dragenter
 2. dragover
 3. dragleave或drop

@@ -17,6 +17,7 @@
 1. dragstart
 2. drag
 3. dragend
+
 在放置目标上触发
 1. dragenter
 2. dragover

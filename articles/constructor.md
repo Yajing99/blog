@@ -6,9 +6,7 @@
 太奇怪了，这里的变量`obj`我记得不是没有原型的嘛，难道它自身就有`constructor`属性？
 
 （驳自身就有`constructor`属性想法）引用MDN上的一句话：
->**所有对象都会从它的原型上继承一个 `constructor` 属性**
-
-
+>所有对象都会从它的原型上继承一个 `constructor` 属性
 
 
 忽而又想到了`Object.create()`方法，实践一下：
@@ -40,6 +38,6 @@ function object(o) {
 ![image](https://github.com/Yajing99/blog/blob/master/images/constructor/3%E5%AF%B9%E9%97%AE%E9%A2%981%E7%90%86%E8%A7%A3.png)
 
 ### 小结
-1、`objcreate.prototype.__proto__`为空等于null
-2、`Object.create()`方法创建一个新对象是通过现有的对象来提供新对象的`__proto__` 
-3、通过对象字面量创建的对象没有原型，包括箭头函数、对象实例也是一样没有原型
+1. `objcreate.prototype.__proto__`为空等于null
+2. `Object.create()`方法创建一个新对象是通过现有的对象来提供新对象的`__proto__` 
+3. 通过对象字面量创建的对象没有原型，包括箭头函数、对象实例也是一样没有原型

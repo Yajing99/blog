@@ -35,9 +35,9 @@ function object(o) {
 很好的解释了上面的`objcreate.__proto__ === Object`答案是`true`是正确的。
 下面我们可以来画一张图来解释上面的情况：
 
-![image](https://github.com/Yajing99/blog/blob/master/images/constructor/3%E5%AF%B9%E9%97%AE%E9%A2%981%E7%90%86%E8%A7%A3.png)
+![image](https://github.com/Yajing99/blog/blob/master/images/constructor/%E5%AF%B9object.create%E8%A7%A3%E9%87%8A.png)
 
-### 小结
+### 补充+说明
 1. `objcreate.prototype.__proto__`为空等于null
 2. `Object.create()`方法创建一个新对象是通过现有的对象来提供新对象的`__proto__` 
 3. 通过对象字面量创建的对象没有原型，包括箭头函数、对象实例也是一样没有原型

@@ -41,3 +41,4 @@ function object(o) {
 1. `objcreate.prototype.__proto__`为空等于null
 2. `Object.create()`方法创建一个新对象是通过现有的对象来提供新对象的`__proto__` 
 3. 通过对象字面量创建的对象没有原型，包括箭头函数、对象实例也是一样没有原型
+4. `Function.prototype.__proto__`等于`Object.prototype`
